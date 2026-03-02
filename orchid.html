@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Орхідея</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #ffe6f0; 
+}
+
+
+.menu {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 12px;
+    font-size: 18px;
+}
+
+
+.header {
+    width: 60%;
+    margin: 100px auto 20px auto; 
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 26px;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+
+.content {
+    width: 75%;
+    margin: 0 auto 50px auto;
+    background-color: white;
+    padding: 30px;
+    font-size: 18px;
+    color: black;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+ul {
+    line-height: 1.6;
+}
+
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;     margin-top: 30px;
+    flex-wrap: wrap; 
+}
+
+.image-container {
+    text-align: center;
+}
+
+.images img {
+    max-width: 300px; 
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.images img:hover {
+    transform: scale(1.05); 
+}
+
+.image-caption {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="menu">
+    <a href="index.html">Рослини</a>
+    <a href="orchid.html">Орхідея</a>
+    <a href="hyacinth.html">Гіацинт</a>
+    <a href="tulip.html">Тюльпан</a>
+</div>
+
+<div class="header">
+    Цікаві факти про орхідею
+</div>
+
+<div class="content">
+    <ul>
+        <li>Орхідеї, на відміну від більшості квітів, не викликають алергії. Аромат орхідей дуже різноманітний: від ніжних ароматів з нотками меду і ванілі до запаху тухлого м’яса.</li>
+        <li>Орхідеї – одне з найстаріших сімейств рослин, яке виникло на планеті близько 145 млн років тому.</li>
+        <li>Орхідеї вражають своєю різноманітністю і ростуть по всій Землі, за винятком Антарктиди.</li>
+        <li>Натуральна ваніль є стручками одного з видів орхідеї.</li>
+        <li>Найдорожчі орхідеї «Золото Кінабалу» вперше розквітають лише у віці 15 років. Через їх рідкісність вартість пагонів сягає 5 000 доларів. Росте ця квітка в Малайзії.</li>
+        <li>На Алясці росте більше видів орхідей, ніж в будь-якому іншому американському штаті.</li>
+        <li>Близько 10% усіх квітів на Землі припадає на орхідеї (включаючи штучно виведені види).</li>
+        <li>Найбагатшу колекцію орхідей можна побачити в парку в Сінгапурі – близько 60 тисяч рослин цього сімейства.</li>
+    </ul>
+
+    <div class="images">
+        <div class="image-container">
+            <img src="images/Орхідея 1.jpeg" alt="Орхідея 1">
+            
+        </div>
+        <div class="image-container">
+            <img src="images/Орхідея 2.jpg" alt="Орхідея 2">
+            
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
